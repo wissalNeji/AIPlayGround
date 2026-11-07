@@ -1,5 +1,0 @@
-streamlit
-tiktoken
-sentence-transformers
-scikit-learn
-groq
