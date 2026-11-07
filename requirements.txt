@@ -1,0 +1,14 @@
+# AI Lab Playground — dépendances (testées avec Python 3.12/3.13, Streamlit 1.67)
+streamlit>=1.67,<2
+tiktoken>=0.7
+numpy
+pandas
+scikit-learn>=1.3
+sentence-transformers>=3.0     # installe aussi transformers et torch (embeddings, modèles locaux optionnels)
+groq>=1.0                      # LLM, vision, Whisper, Orpheus (clé GROQ_API_KEY)
+huggingface_hub>=0.30          # génération d'images via Inference Providers (jeton HF_TOKEN, facultatif)
+sacrebleu>=2.4                 # BLEU / chrF (étape 5)
+pypdf>=4.0                     # extraction du texte des PDF (étape 6)
+gTTS>=2.5                      # synthèse vocale sans clé (étapes 3 et 5)
+sentencepiece>=0.2             # requis uniquement par l'option MarianMT locale (étape 5)
+pillow
